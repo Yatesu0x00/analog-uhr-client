@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnalogUhr", "AnalogUhr\AnalogUhr.csproj", "{1E287CC4-7F49-4C48-A4C6-C1C300285031}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnalogUhrClient", "AnalogUhrClient\AnalogUhrClient.csproj", "{B408A530-ABBF-42AD-9BA3-C412E3C5F6EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1E287CC4-7F49-4C48-A4C6-C1C300285031}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E287CC4-7F49-4C48-A4C6-C1C300285031}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E287CC4-7F49-4C48-A4C6-C1C300285031}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E287CC4-7F49-4C48-A4C6-C1C300285031}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B408A530-ABBF-42AD-9BA3-C412E3C5F6EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B408A530-ABBF-42AD-9BA3-C412E3C5F6EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B408A530-ABBF-42AD-9BA3-C412E3C5F6EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B408A530-ABBF-42AD-9BA3-C412E3C5F6EB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {77F78AD6-BAF2-40DC-BEAD-758F2E48EF1E}
+	EndGlobalSection
+EndGlobal

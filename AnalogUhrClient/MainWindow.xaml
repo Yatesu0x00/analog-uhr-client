@@ -1,0 +1,21 @@
+﻿<Window x:Class="AnalogUhrClient.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AnalogUhrClient"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" Loaded="Window_Loaded" Closing="Window_Closing">
+    <Canvas x:Name="C" SizeChanged="C_SizeChanged">
+        <Menu Name="MainMenu" IsMainMenu="True" HorizontalAlignment="Left" Height="21" VerticalAlignment="Top" Width="48" RenderTransformOrigin="0.786,0.875">
+        <MenuItem Header="Server" Width="48" Focusable="False" Height="21">
+            <MenuItem x:Name="connect" Header="Verbinden" Click="connect_Click" />
+            <Separator></Separator>
+            <MenuItem x:Name="disconnect" Header="Trennen" Click="disconnect_Click"/>
+            <Separator></Separator>
+            <MenuItem x:Name="close" Header="Ende" Click="close_Click"/>
+        </MenuItem>
+        </Menu>
+        <Label x:Name="lbTime" Content="00:00:00" Canvas.Left="10" Canvas.Top="129" Height="180" Width="340" FontSize="72" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="Bold"/>
+    </Canvas>
+</Window>
